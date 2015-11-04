@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+   <meta charset="utf-8">
+	<title>Pavel Elsukov - web-developer</title>
+	<meta name="description" content="Pavel Elsukov - web-developer">
+	<meta name="keywords" content="Pavel Elsukov,web-developer,engineer-developer,custom,site,development,php,html,js,jquery,web technology,web-engineer">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name='yandex-verification' content='750d1c8feb34e4b3' />
+
+   <link rel="stylesheet" href="<?=base_url();?>application/views/css/default.css">
+	<link rel="stylesheet" href="<?=base_url();?>application/views/css/layout.css">
+   <link rel="stylesheet" href="<?=base_url();?>application/views/css/media-queries.css">
+   <link rel="stylesheet" href="<?=base_url();?>application/views/css/magnific-popup.css">
+
+	<script src="<?=base_url();?>application/views/js/modernizr.js"></script>
+	
+   <!-- recaptcha script
+   ================================================== -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+
+<body>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+	<nav id="nav-wrap">
+
+		<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+		<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+	<ul id="nav" class="nav">
+		<li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+		<li><a class="smoothscroll" href="#about">About</a></li>
+		<li><a class="smoothscroll" href="#portfolio">Works</a></li>
+		<!--li><a class="smoothscroll" href="#testimonials">Testimonials</a></li-->
+		<li><a class="smoothscroll" href="#contact">Contact</a></li>
+	</ul> <!-- end #nav -->
+
+	</nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Pavel Elsukov.</h1>
+            <h3>I'm a <span>engineer-developer</span>. Я специализируюсь на <span>web-технологиях</span>, работаю в качестве <span>web-программиста</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/pavel.aleksan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+               <!--li><a href="#"><i class="fa fa-twitter"></i></a></li-->
+               <li><a href="https://plus.google.com/u/0/104680899017182282865" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+               <!--li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li-->
+               <li><a href="skype:pavel_elsukov?chat"><i class="fa fa-skype"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+	<section id="about">
+		<div class="row">
+			<div class="three columns">
+				<img class="profile-pic"  src="<?=base_url();?>application/views/images/profilepic2.jpg" alt="" />
+			</div>
+
+			<div class="nine columns main-col">
+
+			<h2>About Me</h2>
+
+            <p>Моя специальность - инженер-программист. Мне 27 лет, я работаю в области информационных технологий более 7 лет.<br/>
+С 2007 года и по настоящее время я специализируюсь на web-технологиях, работаю в качестве web-программиста. При создании проектов использую язык <span>PHP</span>, базу данных <span>MySQL</span>, <span>Jquery</span>, приходилось иметь дело с <span>API</span> различных сервисов, работаю с <span>CURL</span>, <span>SOAP</span>, <span>XML</span>, <span>REST</span>. Также осуществлял работы по технической поддержке сайтов.<br/>На данный момент я готов выполнить на профессиональном уровне все работы по web-ресурсам.<br/>Мне нравится заниматься своим делом, нравится работа и проекты, которые я создаю. Я не являюсь отъявленным фанатом своего дела, но стараюсь выполнять проекты ответственно, качественно и добросовестно. Надеюсь, вам понравится работать со мной.</p>
+
+			<div class="row">
+				<div class="columns contact-details">
+					<h2>Contact Details</h2>
+					<p class="address">
+						<span>Pavel Elsukov</span><br>
+						<!--span>1600 Amphitheatre Parkway<br>
+						         Mountain View, CA 94043 US
+						</span><br-->
+						<span><a href="skype:pavel_elsukov?chat" title="Send to Skype"><i class="fa fa-skype" title="Skype: pavel_elsukov"></i> pavel_elsukov</a></span><br>
+						<span><a href="javascript:void(0)" title="Send in ICQ"><img src="http://web.icq.com/whitepages/online?icq=615579973&img=5" title="Status of ICQ" style="position: relative;top: 5px;"/> 615579973</a></span><br>
+						<span><a href="mailto:pavel.elsukov@gmail.com" title="Send email to pavel.elsukov@gmail.com"><i class="fa fa-envelope"></i> pavel.elsukov@gmail.com</a></span>
+					</p>
+				</div>
+               <!--div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div-->
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Mari State University</h3>
+                  <p class="info">Teacher of Computer Science and Mathematics <span>&bull;</span> <em class="date">July 2009</em></p>
+                  <p>В университете у меня проявился интерес к программированию. Вначале это были простые программы, несвязанные с вебразработкой, но именно они дали мне представление о программировании, как таковом. Позже, в университете, я познакомился с web-программированием и написал свой первый сайт. С тех пор, я решил, что это то, чем я хочу заниматься.</p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="row item">
+               <div class="twelve columns">
+                  <h3>Pilot Group</h3>
+                  <p class="info">Engineer-developer<span>&bull;</span> <em class="date">July 2010 - Present</em></p>
+                  <p>Работа в отделе дополнительных разработок компании. Добавление дополнительного функционала в все продукты линейки продуктов компании, согласно запросам клиентов. Накоплен богатый опыт в работе с клиентами и поиска наиболее подходящего и быстрого способа модификации кода согласно их запросам.</p>
+               </div>
+            </div> <!-- item end -->
+         </div> <!-- main-col end -->
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+		<div class="row skill">
+
+			<div class="three columns header-col">
+				<h1><span>Skills</span></h1>
+			</div>
+
+			<div class="nine columns main-col">
+
+				<p>Так оценивают мои знания и навыки в области web-технологий мои коллеги</p>
+
+				<div class="bars">
+					<ul class="skills">
+						<!--li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+						<li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li-->
+						<li><span class="bar-expand php"></span><em>PHP</em></li>
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+						<li><span class="bar-expand css"></span><em>CSS</em></li>
+						<li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					</ul>
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End skills -->
+
+	</section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+		<div class="twelve columns collapsed">
+
+            <h1>Мои последние работы</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+				<div class="columns portfolio-item">
+					<div class="item-wrap">
+
+						<a href="#modal-01" title="">
+							<img alt="" src="<?=base_url();?>application/views/images/portfolio/module_captcha/modals/image5_800x800.jpg">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Captcha module</h5>
+									<p>Модуль для линейки продуктов компании Pilot Group Rus</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+						</a>
+
+					</div>
+				</div> <!-- item end -->
+
+			</div> <!-- portfolio-wrapper end -->
+
+		</div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+		<div id="modal-01" class="popup-modal mfp-hide">
+			<img class="scale-with-grid" src="<?=base_url();?>application/views/images/portfolio/module_captcha/image5.jpg" alt="" />
+			<div class="description-box">
+				<h4>Captcha module</h4>
+				<p>Модуль для линейки продуктов компании Pilot Group Rus. Он позволяет самостоятельно настраивать и менять дефолтную капчу сайта.</p>
+				<span class="categories"><i class="fa fa-tag"></i>add-on, PG Dating Pro, PG Real Estate, PG Job Site Pro, PG Auto Pro, PG SocialBiz</span>
+			</div>
+			<div class="link-box">
+				<a href="<?=base_url();?>captcha">Details</a>
+				<a class="popup-modal-dismiss">Close</a>
+			</div>
+
+		</div><!-- modal-01 End -->
+
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+   <!-- Testimonials Section
+   ================================================== --
+	<section id="testimonials">
+
+		<div class="text-container">
+
+			<div class="row">
+
+				<div class="two columns header-col">
+
+					<h1><span>Client Testimonials</span></h1>
+
+				</div>
+
+				<div class="ten columns flex-container">
+
+					<div class="flexslider">
+
+						<ul class="slides">
+
+							<li>
+								<blockquote>
+									<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.</p>
+								<cite>Steve Jobs</cite>
+								</blockquote>
+							</li> <!-- slide ends --
+
+						</ul>
+
+					</div> <!-- div.flexslider ends --
+
+				</div> <!-- div.flex-container ends --
+
+			</div> <!-- row ends --
+
+		</div>  <!-- text-container ends --
+
+	</section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Pavel Elsukov - web-developer</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Готов выполнить для Вас работы по веб-программированию сайтов (создание и модернизация). Вряд ли Вы захотите получить платную консультацию, как отдельную услугу, поэтому я готов вложить весь свой опыт в ответы на Ваши вопросы.</p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+					<div>
+						<label for="contactName">Name <span class="required">*</span></label>
+						<input type="text" value="" size="35" id="contactName" name="contactName">
+					</div>
+
+					<div>
+						<label for="contactEmail">Email <span class="required">*</span></label>
+						<input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+					</div>
+
+					<div>
+						<label for="contactSubject">Subject</label>
+						<input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+					</div>
+
+					<div>
+						<label for="contactMessage">Message <span class="required">*</span></label>
+						<textarea cols="50" rows="10" id="contactMessage" name="contactMessage"></textarea>
+					</div>
+
+					<div style="margin-bottom:15px; overflow:hidden;">
+						<label></label>
+						<div class="g-recaptcha" data-sitekey="6LdmNP8SAAAAAFOowpjp7-lKHKew_NvsVZeyCJLc" style="float:left"></div>
+					</div>
+
+                  <div>
+                     <button class="submit">Send</button>
+                     <span id="image-loader">
+                        <img alt="" src="<?=base_url();?>application/views/images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+			<aside class="four columns footer-widgets">
+
+				<div class="widget widget_contact">
+
+					<h4>Address and Phone</h4>
+					<p class="address">
+						<span>Pavel Elsukov</span><br>
+						<!--span>1600 Amphitheatre Parkway<br>
+						Mountain View, CA 94043 US
+						</span><br-->
+						<span><a href="skype:pavel_elsukov?chat" title="Send to Skype"><i class="fa fa-skype" title="Skype: pavel_elsukov"></i> pavel_elsukov</a></span><br>
+						<span><a href="javascript:void(0)" title="Send in ICQ"><img src="http://web.icq.com/whitepages/online?icq=615579973&img=5" title="Status of ICQ" style="position: relative;top: 5px;"/> 615579973</a></span><br>
+						<span><a href="mailto:pavel.elsukov@gmail.com" title="Send email to pavel.elsukov@gmail.com"><i class="fa fa-envelope"></i> pavel.elsukov@gmail.com</a></span>
+					</p>
+
+				</div>
+
+               <!--div class="widget widget_tweets">
+
+                  <h4 class="widget-title">Latest Tweets</h4>
+
+                  <ul id="twitter">
+                     <li>
+                        <span>
+                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">2 Days Ago</a></b>
+                     </li>
+                     <li>
+                        <span>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">3 Days Ago</a></b>
+                     </li>
+                  </ul>
+
+		         </div-->
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.facebook.com/pavel.aleksan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+               <!--li><a href="#"><i class="fa fa-twitter"></i></a></li-->
+               <li><a href="https://plus.google.com/u/0/104680899017182282865" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+               <!--li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li-->
+               <li><a href="skype:pavel_elsukov?chat"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; 2014 Pavel Elsukov</li> 
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a> and <a href="http://lab.yurbasik.org.ua/">lab</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="<?=base_url();?>application/views/js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="<?=base_url();?>application/views/js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="<?=base_url();?>application/views/js/jquery.flexslider.js"></script>
+   <script src="<?=base_url();?>application/views/js/waypoints.js"></script>
+   <script src="<?=base_url();?>application/views/js/jquery.fittext.js"></script>
+   <script src="<?=base_url();?>application/views/js/magnific-popup.js"></script>
+   <script src="<?=base_url();?>application/views/js/init.js"></script>
+	<?php include('tracking.php');?>
+	
+</body>
+</html>

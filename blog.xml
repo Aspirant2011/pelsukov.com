@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<section>
+		<blog><![CDATA[Blog]]></blog>
+		<blog_create><![CDATA[Create a blog]]></blog_create>
+		<blog_new_post><![CDATA[New post to blog]]></blog_new_post>
+		<blog_calendar><![CDATA[Calendar]]></blog_calendar>
+		<blog_categories><![CDATA[<font size="4">Blog categories</font>]]></blog_categories>
+	</section>
+	<blog>
+		<guest_link_text><![CDATA[Register now for free to read the full blog content as well as to gain access to our other blogs.]]></guest_link_text>
+		<blog_name><![CDATA[<font size="4">Blog title</font>]]></blog_name>
+		<hidden_blog><![CDATA[Your Blog is visible to friends only]]></hidden_blog>
+		<description><![CDATA[<font size="4">Short description</font>]]></description>
+		<no_html><![CDATA[(No html code allowed. Text only.)]]></no_html>
+		<first_blog_title><![CDATA[<font size="4">Welcome to our Blog</font>]]></first_blog_title>
+		<first_blog_post_1><![CDATA[You have no blog posts. Start your blog!]]></first_blog_post_1>
+		<first_blog_post_2><![CDATA[now]]></first_blog_post_2>
+		<blog_menu_1><![CDATA[My Blog]]></blog_menu_1>
+		<blog_menu_2><![CDATA[Calendar]]></blog_menu_2>
+		<blog_menu_3><![CDATA[Add post]]></blog_menu_3>
+		<blog_menu_4><![CDATA[Friends]]></blog_menu_4>
+		<you_have_no_post><![CDATA[*You have no blog posts]]></you_have_no_post>
+		<show_guest><![CDATA[Make public]]></show_guest>
+		<hidden_post><![CDATA[Hidden post]]></hidden_post>
+		<posted_at><![CDATA[Posted at]]></posted_at>
+		<comments><![CDATA[comments]]></comments>
+		<post_title><![CDATA[Title]]></post_title>
+		<post_author><![CDATA[Author]]></post_author>
+		<post_body><![CDATA[Body]]></post_body>
+		<can_comment><![CDATA[Users can post comments]]></can_comment>
+		<image_upload><![CDATA[Image Upload]]></image_upload>
+		<add_comment><![CDATA[Add comment]]></add_comment>
+		<edit_post><![CDATA[Edit post]]></edit_post>
+		<delete_post><![CDATA[Delete post]]></delete_post>
+		<err>
+			<badword_finding_7_1><![CDATA[Indecent or prohibited words were found in Blog title]]></badword_finding_7_1>
+			<badword_finding_7_2><![CDATA[Prohibited words were found in Blog description. Please check it up.]]></badword_finding_7_2>
+			<badword_finding_7_3><![CDATA[Indecent or prohibited words were found in Post title]]></badword_finding_7_3>
+			<badword_finding_7_4><![CDATA[Prohibited words were found in Post body. Please check it up.]]></badword_finding_7_4>
+			<badword_finding_7_5><![CDATA[Indecent or prohibited words were found in Comment title]]></badword_finding_7_5>
+			<badword_finding_7_6><![CDATA[Prohibited words were found in Comment body. Please check it up.]]></badword_finding_7_6>
+			<you_have_blog><![CDATA[You have already created your blog]]></you_have_blog>
+			<you_have_no_blog><![CDATA[You have no blog. Create your blog profile now!]]></you_have_no_blog>
+			<no_file_selected><![CDATA[No file selected]]></no_file_selected>
+			<post_created><![CDATA[Post was created]]></post_created>
+			<comment_created><![CDATA[Your comment was posted]]></comment_created>
+			<comment_deleted><![CDATA[Comment was deleted]]></comment_deleted>
+			<you_blog_deactivated_by_admin><![CDATA[Your blog is temporarily blocked by site administrator. Please <a href="[link]">Contact us</a> to get further details.]]></you_blog_deactivated_by_admin>
+			<empty_fields><![CDATA[Empty fields]]></empty_fields>
+			<category_saved><![CDATA[Category saved]]></category_saved>
+			<category_added><![CDATA[Category added]]></category_added>
+			<blog_was_created><![CDATA[Your blog was created]]></blog_was_created>
+			<blog_was_saved><![CDATA[Your blog was saved]]></blog_was_saved>
+			<badword_finding_7_7><![CDATA[Bad words were found in your tags. Please check.]]></badword_finding_7_7>
+			<friend><![CDATA[Blog is only visible to friends]]></friend>
+		</err>
+		<posted_by><![CDATA[comment by]]></posted_by>
+		<comment_title><![CDATA[Title]]></comment_title>
+		<comment_body><![CDATA[Body]]></comment_body>
+		<edit_comment><![CDATA[Edit comment]]></edit_comment>
+		<delete_comment><![CDATA[Delete comment]]></delete_comment>
+		<comment_deleted><![CDATA[*comment deleted]]></comment_deleted>
+		<no_title><![CDATA[no title]]></no_title>
+		<leave_reply><![CDATA[Reply]]></leave_reply>
+		<no_comment><![CDATA[No comments]]></no_comment>
+		<no_friends><![CDATA[Sorry, your friends have no posts or your hotlist is empty]]></no_friends>
+		<header><![CDATA[Blog]]></header>
+		<blog_menu><![CDATA[View blog]]></blog_menu>
+		<admin>
+			<razdel_name><![CDATA[Blog]]></razdel_name>
+			<list><![CDATA[Blog list]]></list>
+			<number><![CDATA[N/N]]></number>
+			<title><![CDATA[<font size="4">Title</font>]]></title>
+			<user_login><![CDATA[User]]></user_login>
+			<creation_date><![CDATA[Created]]></creation_date>
+			<status><![CDATA[Status]]></status>
+			<type><![CDATA[Type]]></type>
+			<private><![CDATA[private]]></private>
+			<public><![CDATA[public]]></public>
+			<posts><![CDATA[Posts]]></posts>
+			<comms><![CDATA[Comments]]></comms>
+			<change><![CDATA[Change]]></change>
+			<profile_activated><![CDATA[activated]]></profile_activated>
+			<profile_deactivated><![CDATA[deactivated]]></profile_deactivated>
+			<categories_list><![CDATA[Categories list]]></categories_list>
+			<categories_edit><![CDATA[Categories edit]]></categories_edit>
+			<category><![CDATA[Category]]></category>
+			<blogs_count><![CDATA[Blogs count]]></blogs_count>
+			<category_name><![CDATA[Category name]]></category_name>
+			<blog_edit><![CDATA[Edit blog]]></blog_edit>
+			<view_comments><![CDATA[See comments]]></view_comments>
+		</admin>
+		<confirm><![CDATA[Are you sure?]]></confirm>
+		<confirm_category_non_null><![CDATA[There are some blogs in this category. Do you really want to delete this category?]]></confirm_category_non_null>
+		<category><![CDATA[Category]]></category>
+		<blog_menu_5><![CDATA[All Blogs]]></blog_menu_5>
+		<there_are_no_post><![CDATA[There are no posts]]></there_are_no_post>
+		<to_categories_list><![CDATA[Categories list]]></to_categories_list>
+		<posts_in_category><![CDATA[Posts in category]]></posts_in_category>
+		<blog_in_category><![CDATA[Blogs in category]]></blog_in_category>
+		<blogs><![CDATA[blogs]]></blogs>
+		<help_tip>
+			<calendar><![CDATA[Here you can view calendar for your blog listings.]]></calendar>
+			<my_friends><![CDATA[Check your friends blogs!]]></my_friends>
+		</help_tip>
+		<delete_blog><![CDATA[Delete blog]]></delete_blog>
+		<edit_blog><![CDATA[Edit blog]]></edit_blog>
+		<confirm_delete><![CDATA[Your blog is off permanently. Would you like to continue?]]></confirm_delete>
+		<tags><![CDATA[Tags]]></tags>
+		<tags_clouds><![CDATA[Tags cloud]]></tags_clouds>
+		<tags_search_result><![CDATA[Tag search results - ]]></tags_search_result>
+	</blog>
+	<badwords>
+		<area7><![CDATA[In blog]]></area7>
+	</badwords>
+	<modules>
+		<blog>
+			<name><![CDATA[Blog]]></name>
+			<comment><![CDATA[Blog module that allows you to create your own blog, get more views, comments, contacts.]]></comment>
+		</blog>
+		<admin_blog>
+			<name><![CDATA[Admin Blog]]></name>
+			<comment><![CDATA[Administrator can moderate and manage site blogs, view users blogs, comments, contacts.]]></comment>
+		</admin_blog>
+	</modules>
+	<admin_menu>
+		<blog><![CDATA[Blog]]></blog>
+		<all_blogs><![CDATA[View All Blogs]]></all_blogs>
+		<categories><![CDATA[Categories]]></categories>
+	</admin_menu>
+	<admin_help>
+		<blog_list><![CDATA[In this section you can check all blogs created by your site members, manage them, create new blog categories.]]></blog_list>
+		<blog_categories_list><![CDATA[All blogs are sorted by categories. You can manage them here. Click the number in the list to see blogs in a category. <a href="https://pilotgroup.zendesk.com/forums/21089101-ask-a-question">Learn more</a>]]></blog_categories_list>
+		<blog_edit><![CDATA[Here you can edit your blog contents: post data, edit texts, participants.]]></blog_edit>
+	</admin_help>
+	<calendar>
+		<monday><![CDATA[Monday]]></monday>
+		<tuesday><![CDATA[Tuesday]]></tuesday>
+		<wednesday><![CDATA[Wednesday]]></wednesday>
+		<thursday><![CDATA[Thursday]]></thursday>
+		<friday><![CDATA[Friday]]></friday>
+		<saturday><![CDATA[Saturday]]></saturday>
+		<sunday><![CDATA[Sunday]]></sunday>
+		<short>
+			<monday><![CDATA[Mon]]></monday>
+			<tuesday><![CDATA[Tue]]></tuesday>
+			<wednesday><![CDATA[Wed]]></wednesday>
+			<thursday><![CDATA[Thu]]></thursday>
+			<friday><![CDATA[Fri]]></friday>
+			<saturday><![CDATA[Sat]]></saturday>
+			<sunday><![CDATA[Sun]]></sunday>
+		</short>
+	</calendar>
+	<admin_blog>
+		<dialog_post><![CDATA[Are you sure you want to delete this post? All data will be lost.]]></dialog_post>
+		<dialog_blog><![CDATA[Are you sure you want to delete this blog? All data will be lost.]]></dialog_blog>
+		<dialog_comment><![CDATA[Are you sure you want to delete this comment? All data will be lost.]]></dialog_comment>
+		<dialog_yes><![CDATA[Yes, delete it.]]></dialog_yes>
+		<dialog_no><![CDATA[No, please cancel]]></dialog_no>
+	</admin_blog>
+	<users>
+		<hide_search_form><![CDATA[Hide Search form]]></hide_search_form>
+		<show_search_form><![CDATA[Show Search form]]></show_search_form>
+	</users>
+</data>
